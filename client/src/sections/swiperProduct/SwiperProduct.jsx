@@ -38,30 +38,34 @@ const SwiperProduct = () => {
   }, []);
 
   return (
-    <div className="swiper-container" ref={swiperRef}>
-      <div className="swiper-wrapper">
-        <div className="swiper-slide">
-          <img
-            className="img1"
-            src="https://images.contentstack.io/v3/assets/blt5bbf09732528de36/blt1dc468f06743f7cc/63517745d27c4a22ea5bd494/Valorant_Secretlab_In-Game_Client_Promo_Banner_(2560x1098).jpg?auto=webp&width=1242&quality=85"
-            alt="1"
-          />
-          <ButtonShop name={"/Secret"} />
-        </div>
-        <div className="swiper-slide">
-          <img
-            src=" https://images.goodsmile.info/cgm/images/product/20220705/12942/101405/large/452e69c4f154caa36628bb4dedda8b92.jpg"
-            alt=""
-          />
-          <ButtonShop name={"/Star Guardian Jinx Figure"} />
-        </div>
-        <div className="swiper-slide">
-          <img className="border" src="../../public/border.png" alt="" />
-          {/* <img
-            src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fkyou.id%2Fitems%2F103711%2Fpvc-figure-17-star-guardian-zoe-league-of-legends&psig=AOvVaw1Hw8naxO1osLxkTwgJejtv&ust=1680715268614000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCJj19rbekP4CFQAAAAAdAAAAABAE"
-            alt=""
-          /> */}
-          <ButtonShop name={"/Star Guardian Zoe Figure"} />
+    <div className="swiper">
+      <p>BEST SELLER</p>
+      <div className="swiper-container" ref={swiperRef}>
+        <div className="swiper-wrapper">
+          <div className="swiper-slide">
+            <img
+              className="img1"
+              src="https://i.pinimg.com/564x/65/c0/cb/65c0cb21de4201bff346046a0ed87645.jpg?fbclid=IwAR0TdbYv7r_iJ1uxa7ApyKplf2d-jBRXWZx2MezJA3xp-xFB8T4FEuM3Xqw"
+              alt="1"
+            />
+            <ButtonShop name={"Necklace"} />
+          </div>
+          <div className="swiper-slide">
+            <img
+              className="img1"
+              src=" https://i.pinimg.com/564x/58/ea/57/58ea57837fada4274fb2225272c319ee.jpg?fbclid=IwAR378FqMm7OQTM1PRrjWpf_c6MwBC41lU2dLyHeHwCjjPqX9U1x8V8B63CU"
+              alt=""
+            />
+            <ButtonShop name={"Necklace"} />
+          </div>
+          <div className="swiper-slide">
+            <img
+              className="img1"
+              src=" https://i.pinimg.com/564x/58/ea/57/58ea57837fada4274fb2225272c319ee.jpg?fbclid=IwAR378FqMm7OQTM1PRrjWpf_c6MwBC41lU2dLyHeHwCjjPqX9U1x8V8B63CU"
+              alt=""
+            />
+            <ButtonShop name={"Necklace"} />
+          </div>
         </div>
       </div>
     </div>

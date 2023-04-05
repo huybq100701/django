@@ -84,12 +84,11 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'account',
         'USER': 'postgres',
-        'PASSWORD': 'diep0904',
+        'PASSWORD': '123456',
         'HOST': 'localhost',
         'PORT': '5432',
     }
 }
-
 
 
 # Password validation
@@ -134,4 +133,3 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 ALLOWED_HOSTS = ['*']
 CORS_ORIGIN_WHITELIST = 'http://localhost:3000',
 CORS_ALLOW_ALL_ORIGINS: True
-

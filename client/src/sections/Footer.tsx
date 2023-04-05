@@ -16,7 +16,7 @@ function Footer() {
         </div>
         <div className="footer__container__bottom2">
           <Link to="/" className="btn">
-            ABOUT LEAGUE OF LEGENDS
+            ABOUT JEWELRIES
           </Link>
           <Link to="/" className="btn">
             HELP US IMPROVE
@@ -28,16 +28,12 @@ function Footer() {
             SUPPORTS
           </Link>
           <Link to="/" className="btn">
-            ESPORTS PRO SITE
+            JEWELRY SITE
           </Link>
-          <Link to="/" className="btn">
-            DOWNLOAD RIOT MOBILE COMPANION APP
-          </Link>
+          
         </div>
         <div className="footer__container__bottom3">
-          <div className="logo">
-            <img src={process.env.PUBLIC_URL + "/Logo/logo2.png"} alt="" />
-          </div>
+         
           <div className="actor">
             JewelShop
           </div>

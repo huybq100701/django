@@ -22,12 +22,9 @@ const SignIn = () => {
       <div
         className="signIn"
         style={{
-          backgroundImage: `url(https://lolstatic-a.akamaihd.net/rso-login-page/3.2.12/assets/lol_desktop_background_2x.jpg)`,
+          backgroundImage: `url(https://i.pinimg.com/564x/b4/6b/4d/b46b4d668107909f554e34f9a8847c1e.jpg?fbclid=IwAR3P8H77tF23ZwOpAPOnNHl6-EPleaqhFPVwVFAEvpMgcGyRRBpA4FQj2Bg)`,
         }}
       >
-        <div className="signIn__logo">
-          <img src="/Logo/logo1.svg" alt="" />
-        </div>
         <div className="sigIn__form">
           <form action="">
             <h1>LOGIN</h1>
@@ -59,6 +56,7 @@ const SignIn = () => {
               />
               Lưu mật khẩu
             </label>
+
             <SocialLoginButtons />
           </form>
           <div className="signIn__login" onClick={() => handleLogin()}>
